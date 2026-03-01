@@ -1,3 +1,8 @@
-# Errors
+# ERRORS.md — Repo-Man Error Log
 
-No errors recorded yet.
+> Auto-maintained by spec-github (Repo-Man). WARN+ entries only. Latest at top.  
+> Full verbose log on VPS: `/home/node/.openclaw/workspace-spec-github/logs/repo-man.log`
+
+---
+
+*No errors logged yet.*
