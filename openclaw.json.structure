@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.2.27",
-    "lastTouchedAt": "2026-03-01T09:12:45.287Z"
+    "lastTouchedVersion": "2026.3.1",
+    "lastTouchedAt": "2026-03-02T15:17:52.657Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-01T00:57:29.349Z",
@@ -13,23 +13,19 @@
     "profiles": {
       "openai-codex:default": {
         "provider": "openai-codex",
-        "mode": "oauth",
-        "note": "REDACTED"
+        "mode": "oauth"
       },
       "google:default": {
         "provider": "google",
-        "mode": "api_key",
-        "note": "REDACTED"
+        "mode": "api_key"
       },
       "openrouter:default": {
         "provider": "openrouter",
-        "mode": "api_key",
-        "note": "REDACTED"
+        "mode": "api_key"
       },
       "anthropic:default": {
         "provider": "anthropic",
-        "mode": "api_key",
-        "note": "REDACTED"
+        "mode": "api_key"
       }
     },
     "cooldowns": {
@@ -41,11 +37,11 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "google/gemini-3-flash-preview",
+        "primary": "openrouter/openrouter/auto",
         "fallbacks": [
-          "google/gemini-3.1-pro-preview",
           "openai-codex/gpt-5.3-codex",
-          "openrouter/auto"
+          "openrouter/openrouter/auto",
+          "anthropic/claude-sonnet-4-6"
         ]
       },
       "models": {
@@ -69,7 +65,8 @@
         },
         "anthropic/claude-haiku-4-5": {
           "alias": "Haiku"
-        }
+        },
+        "openrouter/openrouter/auto": {}
       },
       "workspace": "/home/node/.openclaw/workspace",
       "memorySearch": {
@@ -104,27 +101,74 @@
         "default": true,
         "name": "Relay",
         "workspace": "/home/node/.openclaw/workspace-relay",
+        "model": {
+          "primary": "google/gemini-3-flash-preview",
+          "fallbacks": [
+            "openai-codex/gpt-5.3-codex"
+          ]
+        },
+        "identity": {
+          "emoji": "\ud83d\udce1"
+        },
         "subagents": {
           "allowAgents": [
             "main",
             "spec-projects",
-            "spec-github"
+            "spec-github",
+            "spec-dev"
           ]
         }
       },
       {
         "id": "main",
-        "name": "The Captain"
+        "name": "The Captain",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "google/gemini-3-flash-preview"
+          ]
+        },
+        "identity": {
+          "emoji": "\ud83e\udded"
+        }
       },
       {
         "id": "spec-projects",
-        "name": "Quartermaster",
-        "workspace": "/home/node/.openclaw/workspace-spec-projects"
+        "name": "Scribe",
+        "workspace": "/home/node/.openclaw/workspace-spec-projects",
+        "model": {
+          "primary": "google/gemini-3-flash-preview",
+          "fallbacks": [
+            "openai-codex/gpt-5.3-codex"
+          ]
+        },
+        "identity": {
+          "name": "Scribe",
+          "emoji": "\ud83d\udcdc"
+        }
       },
       {
         "id": "spec-github",
         "name": "Repo-Man",
-        "workspace": "/home/node/.openclaw/workspace-spec-github"
+        "workspace": "/home/node/.openclaw/workspace-spec-github",
+        "model": "openai-codex/gpt-5.3-codex",
+        "identity": {
+          "emoji": "\ud83d\udd27"
+        }
+      },
+      {
+        "id": "spec-dev",
+        "name": "Dev",
+        "workspace": "/home/node/.openclaw/workspace-spec-dev",
+        "model": {
+          "primary": "openai-codex/gpt-5.3-codex",
+          "fallbacks": [
+            "google/gemini-3-flash-preview"
+          ]
+        },
+        "identity": {
+          "emoji": "\ud83d\udee0\ufe0f"
+        }
       }
     ]
   },
@@ -152,12 +196,23 @@
         "main",
         "spec-github",
         "spec-projects",
-        "relay"
+        "relay",
+        "spec-dev"
       ]
     }
   },
   "messages": {
-    "ackReactionScope": "group-mentions"
+    "ackReactionScope": "all",
+    "statusReactions": {
+      "enabled": true,
+      "emojis": {
+        "done": "\u2705",
+        "error": "\u274c",
+        "stallSoft": "\u23f3",
+        "stallHard": "\u26a0\ufe0f"
+      }
+    },
+    "removeAckAfterReply": true
   },
   "commands": {
     "native": "auto",
@@ -194,15 +249,24 @@
     "discord": {
       "enabled": true,
       "token": "REDACTED",
-      "groupPolicy": "allowlist",
+      "groupPolicy": "open",
       "streaming": "off",
+      "actions": {
+        "roles": false,
+        "moderation": false,
+        "channels": true,
+        "presence": true
+      },
       "dmPolicy": "pairing",
       "guilds": {
         "1477115265300037703": {
           "requireMention": false,
           "users": [
             "REDACTED"
-          ]
+          ],
+          "channels": {
+            "1478085450701738105": {}
+          }
         }
       }
     }
@@ -210,10 +274,10 @@
   "gateway": {
     "port": 18789,
     "mode": "local",
-    "bind": "loopback",
+    "bind": "lan",
     "controlUi": {
       "allowedOrigins": [
-        "http://127.0.0.1:18789"
+        "*"
       ]
     },
     "auth": {
