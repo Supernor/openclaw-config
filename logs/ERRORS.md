@@ -1,3 +1,11 @@
+## [2026-03-08T03:00:41Z] ERROR — repo-man-backups
+
+**Message:** env-backup failed: /home/node/.openclaw/scripts/env-backup.sh: line 43: /home/node/.openclaw/workspace-spec-github/openclaw-config/.env.template: Permission denied
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-02T03:00:48Z] ERROR — nightly-cron
 
 **Message:** Phase 1: key-drift PASS, ws-backup PASS, env-backup PASS, skills-backup PASS, repo-health PASS, log-audit WARNING
