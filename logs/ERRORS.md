@@ -1,3 +1,11 @@
+## [2026-03-09T03:00:27Z] ERROR — repo-man-backups
+
+**Message:** FATAL: /app/.env not found — key-drift-check.sh failed. Backup aborted.
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-08T03:32:57Z] ERROR — dashboard-update
 
 **Message:** Pinned message edit failed (msg 1477772410995343462) — bot may not own message. Posted status update as new message instead.
