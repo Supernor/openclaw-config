@@ -1,3 +1,11 @@
+## [2026-03-10T03:00:33Z] WARN — repo-man-backups
+
+**Message:** repo-health.sh found unreachable repositories and secret check failed
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:00:28Z] ERROR — repo-man-backups
 
 **Message:** skills-backup.sh failed to push changes
