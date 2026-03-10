@@ -1,3 +1,19 @@
+## [2026-03-10T03:31:01Z] ERROR — ops-nightly
+
+**Message:** Dashboard update: key-drift-check failed with 'env file not found'
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
+## [2026-03-10T03:30:12Z] ERROR — ops-nightly
+
+**Message:** Log audit: 21 cron run failures in recent history, 6 failed messages in delivery queue
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:30:06Z] ERROR — ops-nightly
 
 **Message:** backup-results.json: env-backup failed with Permission denied
