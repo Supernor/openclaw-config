@@ -1,3 +1,11 @@
+## [2026-03-10T03:00:16Z] ERROR — repo-man-backups
+
+**Message:** ws-backup.sh failed to push changes
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:00:10Z] ERROR — repo-man-backups
 
 **Message:** key-drift-check.sh failed: env file not found
