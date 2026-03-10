@@ -1,3 +1,11 @@
+## [2026-03-10T03:00:19Z] ERROR — repo-man-backups
+
+**Message:** env-backup.sh failed: env file not found
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:00:16Z] ERROR — repo-man-backups
 
 **Message:** ws-backup.sh failed to push changes
