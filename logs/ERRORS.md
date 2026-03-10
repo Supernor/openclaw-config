@@ -1,3 +1,11 @@
+## [2026-03-10T03:31:04Z] ERROR — ops-nightly
+
+**Message:** Dashboard update: repo-health.sh reported unreachable repos and mismatched secrets
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:31:01Z] ERROR — ops-nightly
 
 **Message:** Dashboard update: key-drift-check failed with 'env file not found'
