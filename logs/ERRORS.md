@@ -1,3 +1,11 @@
+## [2026-03-10T03:30:06Z] ERROR — ops-nightly
+
+**Message:** backup-results.json: env-backup failed with Permission denied
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-10T03:00:33Z] WARN — repo-man-backups
 
 **Message:** repo-health.sh found unreachable repositories and secret check failed
