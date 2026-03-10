@@ -1,3 +1,11 @@
+## [2026-03-10T03:00:10Z] ERROR — repo-man-backups
+
+**Message:** key-drift-check.sh failed: env file not found
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-09T03:00:27Z] ERROR — repo-man-backups
 
 **Message:** FATAL: /app/.env not found — key-drift-check.sh failed. Backup aborted.
