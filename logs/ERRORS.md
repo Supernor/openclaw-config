@@ -1,3 +1,14 @@
+## [2026-03-12T03:00:59Z] ERROR — repo-man-backups
+
+**Message:** env-backup failed: {status:ERROR,message:env
+**Exit code:** `file`
+**Stderr:**
+```
+not
+```
+
+---
+
 ## [2026-03-12T03:00:58Z] ERROR — repo-man-backups
 
 **Message:** ws-backup failed: {status:ERROR,message:Commit
