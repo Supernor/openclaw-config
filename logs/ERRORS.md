@@ -1,3 +1,11 @@
+## [2026-03-12T03:31:24Z] ERROR — ops-nightly
+
+**Message:** github-feed skill missing in workspace-spec-ops/skills; feed step not executed
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:31:23Z] ERROR — ops-nightly
 
 **Message:** known-issues refresh failed: update-known-issues.sh attempted /root/.openclaw (permission denied)
