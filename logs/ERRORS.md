@@ -1,3 +1,11 @@
+## [2026-03-12T03:01:33Z] ERROR — repo-man-backups
+
+**Message:** key-drift-check failed: {"status":"ERROR","message":"env file not found","file":"/app/.env"}
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:01:02Z] ERROR — repo-man-backups
 
 **Message:** skills-backup failed: {status:ERROR,message:Push
