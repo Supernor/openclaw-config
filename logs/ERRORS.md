@@ -1,3 +1,14 @@
+## [2026-03-12T03:00:56Z] ERROR — repo-man-backups
+
+**Message:** key-drift-check failed: {status:ERROR,message:env
+**Exit code:** `file`
+**Stderr:**
+```
+not
+```
+
+---
+
 ## [2026-03-10T03:31:33Z] ERROR — ops-nightly
 
 **Message:** Failed to spawn sub-agent for github-feed skill: agentId forbidden for sessions_spawn
