@@ -1,3 +1,11 @@
+## [2026-03-12T03:31:23Z] ERROR — ops-nightly
+
+**Message:** key-drift-check failed: /app/.env not found
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:01:35Z] ERROR — repo-man-backups
 
 **Message:** env-backup failed: {"status":"ERROR","message":"env file not found"}
