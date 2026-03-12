@@ -1,5 +1,13 @@
 ## [2026-03-12T03:31:23Z] ERROR — ops-nightly
 
+**Message:** known-issues refresh failed: update-known-issues.sh attempted /root/.openclaw (permission denied)
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
+## [2026-03-12T03:31:23Z] ERROR — ops-nightly
+
 **Message:** key-drift-check failed: /app/.env not found
 **Exit code:** `0`
 **Stderr:** none
