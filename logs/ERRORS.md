@@ -1,3 +1,11 @@
+## [2026-03-12T03:01:02Z] ERROR — repo-man-backups
+
+**Message:** skills-backup failed: {status:ERROR,message:Push
+**Exit code:** `failed,pushed:false}`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:00:59Z] ERROR — repo-man-backups
 
 **Message:** env-backup failed: {status:ERROR,message:env
