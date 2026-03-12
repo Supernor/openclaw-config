@@ -1,3 +1,14 @@
+## [2026-03-12T03:00:58Z] ERROR — repo-man-backups
+
+**Message:** ws-backup failed: {status:ERROR,message:Commit
+**Exit code:** `succeeded`
+**Stderr:**
+```
+but
+```
+
+---
+
 ## [2026-03-12T03:00:56Z] ERROR — repo-man-backups
 
 **Message:** key-drift-check failed: {status:ERROR,message:env
