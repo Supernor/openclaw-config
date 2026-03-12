@@ -1,3 +1,11 @@
+## [2026-03-12T03:01:35Z] ERROR — repo-man-backups
+
+**Message:** env-backup failed: {"status":"ERROR","message":"env file not found"}
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:01:34Z] ERROR — repo-man-backups
 
 **Message:** ws-backup failed: {"status":"ERROR","message":"Commit succeeded but push failed","pushed":false}
