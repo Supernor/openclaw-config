@@ -1,3 +1,11 @@
+## [2026-03-13T03:31:32Z] ERROR — ops-nightly
+
+**Message:** Nightly failures detected: key-drift/env-backup missing /app/.env, ws/skills backup push failed, repo-health repos unreachable+secrets mismatch, github-feed skill missing, update-known-issues permission denied creating /root
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-13T03:01:19Z] ERROR — repo-man-backups
 
 **Message:** skills-backup.sh failed (exit 1): 
