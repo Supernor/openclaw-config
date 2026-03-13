@@ -1,3 +1,11 @@
+## [2026-03-13T03:01:19Z] ERROR — repo-man-backups
+
+**Message:** skills-backup.sh failed (exit 1): 
+**Exit code:** `1`
+**Stderr:** none
+
+---
+
 ## [2026-03-13T03:01:16Z] ERROR — repo-man-backups
 
 **Message:** env-backup.sh failed (exit 1): 
