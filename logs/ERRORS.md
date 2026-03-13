@@ -1,3 +1,11 @@
+## [2026-03-13T03:01:13Z] ERROR — repo-man-backups
+
+**Message:** key-drift-check.sh failed (exit 1): 
+**Exit code:** `1`
+**Stderr:** none
+
+---
+
 ## [2026-03-12T03:31:24Z] ERROR — ops-nightly
 
 **Message:** github-feed skill missing in workspace-spec-ops/skills; feed step not executed
