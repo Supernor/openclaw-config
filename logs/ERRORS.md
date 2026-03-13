@@ -1,3 +1,11 @@
+## [2026-03-13T03:01:15Z] ERROR — repo-man-backups
+
+**Message:** ws-backup.sh failed (exit 1): 
+**Exit code:** `1`
+**Stderr:** none
+
+---
+
 ## [2026-03-13T03:01:13Z] ERROR — repo-man-backups
 
 **Message:** key-drift-check.sh failed (exit 1): 
