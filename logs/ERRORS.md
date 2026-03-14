@@ -1,3 +1,11 @@
+## [2026-03-14T03:31:16Z] ERROR — ops-nightly
+
+**Message:** github-feed step failed: gh CLI not found on host
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-14T03:01:02Z] ERROR — repo-man-backups
 
 **Message:** /home/node/.openclaw/scripts/skills-backup.sh failed (exit 1): {"status":"ERROR","message":"Push failed","pushed":false}
