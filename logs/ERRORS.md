@@ -1,3 +1,14 @@
+## [2026-03-14T03:01:02Z] ERROR — repo-man-backups
+
+**Message:** /home/node/.openclaw/scripts/skills-backup.sh failed (exit 1): {"status":"ERROR","message":"Push failed","pushed":false}
+**Exit code:** `1`
+**Stderr:**
+```
+{"status":"ERROR","message":"Push failed","pushed":false}
+```
+
+---
+
 ## [2026-03-14T03:00:58Z] ERROR — repo-man-backups
 
 **Message:** /home/node/.openclaw/scripts/env-backup.sh failed (exit 1): {"status":"ERROR","message":"env file not found"}
