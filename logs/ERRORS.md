@@ -1,3 +1,14 @@
+## [2026-03-14T03:00:55Z] ERROR — repo-man-backups
+
+**Message:** /home/node/.openclaw/scripts/key-drift-check.sh failed (exit 1): {"status":"ERROR","message":"env file not found","file":"/app/.env"}
+**Exit code:** `1`
+**Stderr:**
+```
+{"status":"ERROR","message":"env file not found","file":"/app/.env"}
+```
+
+---
+
 ## [2026-03-13T03:31:32Z] ERROR — ops-nightly
 
 **Message:** Nightly failures detected: key-drift/env-backup missing /app/.env, ws/skills backup push failed, repo-health repos unreachable+secrets mismatch, github-feed skill missing, update-known-issues permission denied creating /root
