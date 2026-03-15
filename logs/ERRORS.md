@@ -1,3 +1,11 @@
+## [2026-03-15T03:01:46Z] ERROR — repo-man-backups
+
+**Message:** key-drift-check failed with exit 1: 
+**Exit code:** `1`
+**Stderr:** none
+
+---
+
 ## [2026-03-14T03:31:16Z] ERROR — ops-nightly
 
 **Message:** known-issues refresh failed: cannot access /root/.openclaw/bridge/known-issues.json (permission denied)
