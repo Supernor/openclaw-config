@@ -1,5 +1,13 @@
 ## [2026-03-15T03:32:15Z] ERROR — ops-nightly
 
+**Message:** github-feed skill/script not found; unable to generate ops-github activity feed
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
+## [2026-03-15T03:32:15Z] ERROR — ops-nightly
+
 **Message:** key-drift-check.sh failed: env file not found (/app/.env)
 **Exit code:** `0`
 **Stderr:** none
