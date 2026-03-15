@@ -1,3 +1,19 @@
+## [2026-03-15T03:32:15Z] ERROR — ops-nightly
+
+**Message:** key-drift-check.sh failed: env file not found (/app/.env)
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
+## [2026-03-15T03:32:15Z] ERROR — ops-nightly
+
+**Message:** backup-results.json is empty (0 bytes); cannot evaluate backup status
+**Exit code:** `0`
+**Stderr:** none
+
+---
+
 ## [2026-03-15T03:01:51Z] ERROR — repo-man-backups
 
 **Message:** skills-backup failed with exit 128: Author identity unknown  *** Please tell me who you are.  Run    git config --global user.email \"you@example.com\"   git config --global user.name \"Your Name\"  to set your account's default identity. Omit --global to set the identity only in this repository.  fatal: unable to auto-detect email address (got 'node@0f4945af5233.(none)') 
