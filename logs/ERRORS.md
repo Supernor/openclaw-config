@@ -1,5 +1,13 @@
 ## [2026-03-15T03:01:48Z] ERROR — repo-man-backups
 
+**Message:** env-backup failed with exit 1: 
+**Exit code:** `1`
+**Stderr:** none
+
+---
+
+## [2026-03-15T03:01:48Z] ERROR — repo-man-backups
+
 **Message:** ws-backup failed with exit 128: Author identity unknown  *** Please tell me who you are.  Run    git config --global user.email \"you@example.com\"   git config --global user.name \"Your Name\"  to set your account's default identity. Omit --global to set the identity only in this repository.  fatal: unable to auto-detect email address (got 'node@0f4945af5233.(none)') 
 **Exit code:** `128`
 **Stderr:**
